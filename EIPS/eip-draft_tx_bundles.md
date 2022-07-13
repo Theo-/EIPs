@@ -6,9 +6,9 @@ author: Théo Szymkowiak (@Theo-)
 discussions-to: <URL>
 status: Draft
 type: Standards
-category (*only required for Standards Track): Core
+category: Core
 created: 2022-07-11
-requires (*optional): None
+requires: None
 ---
 
 ## Abstract
