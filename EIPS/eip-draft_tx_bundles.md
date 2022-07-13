@@ -44,7 +44,7 @@ The [EIP-TDB](./eip-TDB.md) `TransactionPayload` for this transaction is
 rlp([chain_id, next, index, nonce, max_priority_fee_per_gas, max_fee_per_gas, gas_limit, destination, amount, data, access_list, signature_y_parity, signature_r, signature_s])
 ```
 
-We propose to add two fields to transaction, thus creating a new transaction type (`3`) with an expended transaction envelope. A `next` field that points to the hash of the next transaction in a bundle. And an `index` field that marks the position of a transaction in a bundle.
+We propose to add two fields to transaction, thus creating a new transaction type (`TX_TYPE(TBD)`) with an expended transaction envelope. A `next` field that points to the hash of the next transaction in a bundle. And an `index` field that marks the position of a transaction in a bundle.
 
 The definitions of all other fields share the same meaning with [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559)
 
